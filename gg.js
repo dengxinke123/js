@@ -6,8 +6,8 @@
 
 **************************************
 [rewrite_local]
-^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://github.com/dengxinke123/js/blob/main/gg.js
-^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://github.com/dengxinke123/js/blob/main/gg.js
+^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
+^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
 
 [mitm]
 hostname = isi.*.g*.com
