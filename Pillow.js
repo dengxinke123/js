@@ -1,4 +1,4 @@
-#!name=Pillow
+#!name=Pillow会员
 #!desc=Pillow解锁会员
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/pillow.png
 #!homepage=https://yfamily.vercel.app
