@@ -16,9 +16,8 @@ hostname = isi.*.g*.com
 
 
 
-var chxm1023 = JSON.parse($response.body);
-
-chxm1023 ={
+done({
+    body: JSON.stringify({
   "request_date_ms": 1699986529579,
   "request_date": "2023-11-14T18:28:49Z",
   "subscriber": {
@@ -59,6 +58,5 @@ chxm1023 ={
     "original_purchase_date": "2022-04-05T15:06:27Z",
     "original_app_user_id": "23f96c76-fd80-4675-9767-8045ef926155",
     "last_seen": "2023-11-14T18:27:25Z"
-  }
-}
-$done({body: JSON.stringify(chxm1023)});
+  })
+});
