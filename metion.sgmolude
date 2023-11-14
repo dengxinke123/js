@@ -3,7 +3,7 @@
 
 [Script]
 
-metion_8 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/metion.js, timeout=60, script-update-interval=0
+metion_8 = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, requires-body=true, max-size=3145728, script-path=https://raw.githubusercontent.com/dengxinke123/js/main/metion.js, timeout=60, script-update-interval=0
 
 [MITM]
 
