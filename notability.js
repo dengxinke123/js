@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/dengxinke123/js/main/notability
+^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/dengxinke123/js/main/notability.js
 [mitm]
 hostname = notability.com
 
