@@ -13,11 +13,12 @@
 hostname = isi.*.g*.com
 
 *************************************/
+var body = $response.body;
+var obj = JSON.parse(body);
 
+obj.vipList = [{
 
-
-$done({
-    body: JSON.stringify({
+{
   "request_date_ms": 1699986529579,
   "request_date": "2023-11-14T18:28:49Z",
   "subscriber": {
@@ -58,5 +59,10 @@ $done({
     "original_purchase_date": "2022-04-05T15:06:27Z",
     "original_app_user_id": "23f96c76-fd80-4675-9767-8045ef926155",
     "last_seen": "2023-11-14T18:27:25Z"
-  })
-});
+  }
+}
+
+  }]
+
+body = JSON.stringify(obj);
+$done({body});
